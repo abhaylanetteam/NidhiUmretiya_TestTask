@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.sidebar{
+  padding: 0 20px;
+}
+
+.sidebar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar_logo{
+  margin: 10px 0;
+
+}
+
+.sidebar_logo h1 {
+  color: white;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.sidebar ul li {
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.sidebar ul li a {
+  color: white;
+}
+
+.success{
+  color: green;
+}
+.faild{
+  color: red;
+}
+
+.edit-action-row{
+  color: #3267ab;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.ant-modal-header{
+  display: none;
+}
+.delete-student-popup{
+
+}
+.form_btn{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.form_btn button{
+  padding:  10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.submit_btn{
+  background: #3267ab;
+  color: white;
+  padding:  10px;
+  border-radius: 4px;
+  border: none;
+  margin-left: 10px;
+}
+
+.ant-form-item.css-dev-only-do-not-override-k83k30.ant-form-item-has-success {
+  margin-bottom: 7px;
+}
+
+.update_student_details .title h1{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.delete_multiple_section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px 20px;
+}
+.delete_multiple{
+  background-color: #e73a3aeb;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+.delete_multiple_disabled{
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  background: gray;
+}
